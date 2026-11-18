@@ -1,0 +1,58 @@
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE and Editor files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# C / C++ & Embedded build artifacts
+build/
+bin/
+obj/
+out/
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.elf
+*.hex
+*.bin
+*.map
+
+# Arduino & PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.orig
+*.tmp
+
+# ESP-IDF
+sdkconfig.old
+sdkconfig.local
+dependencies.lock
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
